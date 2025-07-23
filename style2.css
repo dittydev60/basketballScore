@@ -1,0 +1,68 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.scoreboard{
+    background: #1B244A;
+    width: 800px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 4em;
+    border-radius: 1rem;
+}
+h3{
+    margin: 0;
+}
+.home{
+    padding: 2rem 4rem;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.guest{
+        padding: 2rem 4rem;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.homescore{
+    font-family: "Bitcount Single", system-ui;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #000;
+    width: 12rem;
+    height: 8rem;
+    border-radius: 1rem;
+}
+.guestscore{
+    font-family: "Bitcount Single", system-ui;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #000;
+    width: 12rem;
+    height: 8rem;
+    border-radius: 1rem;
+}
+.btn-1{
+    padding: 1rem;
+    cursor: pointer;
+}
